@@ -7,7 +7,7 @@
 const arabicNumbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
 const romanNumbers = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
 
-// faire correspondre les tableaux avec une formule mathématique pour déterminer le résultat. 
+// faire correspondre les tableaux avec une boucle for while et incrémenter autant  de fois que le nombreentré en paramètre est >=. 
 
 arabicToRoman = (number) => {
     let result = "";
